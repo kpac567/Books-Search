@@ -1,6 +1,5 @@
-## Available Scripts
+
 Live app: https://bkgoogle.herokuapp.com/
-In the project directory, you can run:
 
 ### `yarn start`
 
