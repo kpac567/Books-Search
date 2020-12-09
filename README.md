@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-Tutroial Link https://www.youtube.com/watch?v=kL3H-wTWPSQ
+Live app https://bkgoogle.herokuapp.com/
 ![books0](https://user-images.githubusercontent.com/25937925/76758493-73912680-6792-11ea-8dca-bf219f5abc14.png)
 ![books1](https://user-images.githubusercontent.com/25937925/76758499-7724ad80-6792-11ea-99a5-9220dee7f4e8.png)
 ![book2](https://user-images.githubusercontent.com/25937925/76758505-79870780-6792-11ea-901b-e5db7ee599d1.png)
@@ -76,13 +75,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
->>>>>>> 0c98036678c359af129a2002319173c40d885ab1
 ### Code Splitting
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
@@ -94,14 +86,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/an
 ### Making a Progressive Web App
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
 ### `yarn build` fails to minify
 
