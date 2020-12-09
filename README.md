@@ -1,43 +1,56 @@
-# Google Book Search
+## Available Scripts
+Live app: https://bkgoogle.herokuapp.com/
+In the project directory, you can run:
 
-## Live Link
+### `yarn start`
 
-https://searchbooksandsave.herokuapp.com/
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Description 
-User can search for books via the Google Books API that renders the books to the page. The user is given the option to either save the book or view the book. Saving a book stores the on the save book tab, where the user can again view or delete. The view link takes user to the Google Books site. 
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## Demo
-<img src = "client/public/books.gif" width="400px"/>
-<img src = "client/public/books1.gif" width="400px"/>
+### `yarn test`
 
-## Code Snippet
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-handleSavedButton is the onClick event for saving an article by capturing the books id from the Google API. 
+### `yarn build`
 
-<img src = "client/public/code.png" width="400px"/>
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Technologies Used
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-- React
-- React Router Dom 
-- Javascript
-- Express
-- Mongoose
-- axios
-- CSS
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Challenges
+## Learn More
 
-- Connecting to mongoose
-    - Solution: Fixing schema data types
-- Deploying to Heroku
-    - Solution: Moved the add routes below the static assets
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
-## **Contributors**
- - Links to our Githubs
-    - [Chris Hayashi](https://github.com/Chris-Hayashi)
-    - [Dimple Shanbhag](https://github.com/dimz13)
-    - [Shelby Reinsimar](https://github.com/shelbyreins)
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
