@@ -1,43 +1,73 @@
-# Google Book Search
+Tutroial Link https://www.youtube.com/watch?v=kL3H-wTWPSQ
+![books0](https://user-images.githubusercontent.com/25937925/76758493-73912680-6792-11ea-8dca-bf219f5abc14.png)
+![books1](https://user-images.githubusercontent.com/25937925/76758499-7724ad80-6792-11ea-99a5-9220dee7f4e8.png)
+![book2](https://user-images.githubusercontent.com/25937925/76758505-79870780-6792-11ea-901b-e5db7ee599d1.png)
 
-## Live Link
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-https://searchbooksandsave.herokuapp.com/
+## Available Scripts
 
-## Description 
-User can search for books via the Google Books API that renders the books to the page. The user is given the option to either save the book or view the book. Saving a book stores the on the save book tab, where the user can again view or delete. The view link takes user to the Google Books site. 
+In the project directory, you can run:
 
-## Demo
-<img src = "client/public/books.gif" width="400px"/>
-<img src = "client/public/books1.gif" width="400px"/>
+### `yarn start`
 
-## Code Snippet
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-handleSavedButton is the onClick event for saving an article by capturing the books id from the Google API. 
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-<img src = "client/public/code.png" width="400px"/>
+### `yarn test`
 
-## Technologies Used
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- React
-- React Router Dom 
-- Javascript
-- Express
-- Mongoose
-- axios
-- CSS
+### `yarn build`
 
-## Challenges
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Connecting to mongoose
-    - Solution: Fixing schema data types
-- Deploying to Heroku
-    - Solution: Moved the add routes below the static assets
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `yarn eject`
 
-## **Contributors**
- - Links to our Githubs
-    - [Chris Hayashi](https://github.com/Chris-Hayashi)
-    - [Dimple Shanbhag](https://github.com/dimz13)
-    - [Shelby Reinsimar](https://github.com/shelbyreins)
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
